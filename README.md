@@ -1,4 +1,16 @@
-# denoise - WIP 
+# Around RNNoise  
+
+## Docker
+
+Build Docker image:
+```bash
+docker build -t username/rnnoise:latest -t username/rnnoise:0.1 .
+```
+
+Run `bash` in Docker container:
+```
+docker run -it username/rnnoise:latest /bin/bash
+```
 
 ## Handy commands
 
